@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bookmarklet</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: white;
+    }
+    a {
+      font-size: 24px;
+      text-decoration: none;
+      color: blue;
+      cursor: grab;
+    }
+  </style>
+</head>
+<body>
+  <a href="javascript:(function(){alert('Hello from your bookmarklet!');})();" draggable="true">
+    Drag me to your bookmarks bar
+  </a>
+</body>
+</html>
